@@ -1,0 +1,116 @@
+/* ------------------------------------
+Min size
+--------------------------------------- */
+@media (min-width: 688px) {
+  .menu-icon {
+    display: none;
+  }
+  
+}
+@media (min-width: 1200px) {
+  .player-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 70px 320px;
+    justify-content: center;
+  }
+  .player {
+    width: 350px;
+    height: 450px;
+    padding: 10px;
+  }
+}
+
+/* -------------------------------------
+Max size
+---------------------------------------- */
+
+
+/* -------------
+Phone 
+--------------- */
+@media (max-width: 480px) {
+  .player {
+    width: 300px;
+    height: 430px;
+    padding: 5px;
+    margin: 5px;
+  }
+}
+/* --------------
+I-pad
+--------------- */
+@media (max-width: 768px) {
+  .top-container {
+    padding-top: 0px;
+  }
+  .header {
+    padding-top: 0px;
+  }
+  .menu-icon {
+    color: white;
+  }
+  .menu-icon .fa-navicon {
+    font-size: 30px;
+  }
+  nav .navbar-links {
+    display: none;
+  }
+  nav a {
+    padding: 5px;
+  }
+  .content-box {
+    padding: 0px 15px;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  .player-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    align-items: center;
+  }
+  .player {
+    width: 300px;
+    height: 440px;
+    padding: 5px;
+    margin: 5px;
+  }
+  input[type="search"] {
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
+  .footer-img {
+    width: 200px;
+  }
+
+  .footer-logo {
+    width: 40px;
+  }
+  .team-search {
+    align-items: stretch;
+  }
+}
+
+/* -------------
+Large Display
+---------------- */
+@media (max-width: 1200px) {
+  .player-container {
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 150px;
+    justify-content: center;
+  }
+
+  .player {
+    width: 350px;
+    height: 450px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+}
